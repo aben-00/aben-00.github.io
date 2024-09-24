@@ -77,6 +77,10 @@ figcaption {
 	margin-left: 160px;
 }
 
+.quicklinks {
+	text-align: center;
+}
+
 footer {
 	text-align: center;
 	font-size: 18px;
