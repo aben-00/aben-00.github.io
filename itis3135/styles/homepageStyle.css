@@ -37,6 +37,10 @@ a {
 	font-family: helvetica;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 p {
 	display: inline-block;
 	margin-left: 80px;
@@ -46,6 +50,10 @@ p {
 
 h1, h2 {
 	text-align: center;
+}
+
+h3 {
+	margin-bottom: 2px;
 }
 
 img {
@@ -72,7 +80,6 @@ figcaption {
 footer {
 	text-align: center;
 	font-size: 18px;
-	bottom: 10px;
 }
 
 bars {
