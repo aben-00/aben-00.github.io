@@ -31,14 +31,19 @@ body {
 	text-align: center;
 }
 
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 18px;
+}
+
 a {
 	color: #43b5d9;
 	font-size: 16px;
 	font-family: helvetica;
-}
-
-.bold {
-	font-weight: bold;
 }
 
 p {
@@ -69,21 +74,16 @@ figcaption {
 	font-size: 12px;
 }
 
+.bold {
+	font-weight: bold;
+}
+
 .firm {
 	font-size: 12px;
 }
 
 .indent {
 	margin-left: 160px;
-}
-
-.quicklinks {
-	text-align: center;
-}
-
-footer {
-	text-align: center;
-	font-size: 18px;
 }
 
 bars {
