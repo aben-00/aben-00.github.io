@@ -82,6 +82,12 @@ bars {
 	border-radius: 20px;
 }
 
+.designed-by {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
 .firm {
 	font-size: 12px;
 }
