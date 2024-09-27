@@ -1,3 +1,5 @@
+/* https://coolors.co/3d3d3d-cfcfcf-43b5d9-715aff-b2675e */
+
 head {
 
 }
@@ -40,6 +42,20 @@ footer {
 	font-size: 18px;
 }
 
+a {
+	color: #43b5d9;
+	text-decoration: none;
+	
+}
+
+a:visited {
+	color: #b2675e;
+}
+
+a:active {
+	color: #715aff;
+}
+
 p {
 	margin-left: 3%;
 	margin-right: 40%;
@@ -50,7 +66,7 @@ p {
 li {
 	font-family: helvetica;
 	font-size: 14px;
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 }
 
 h1 {
@@ -98,7 +114,6 @@ bars {
 }
 
 .my-pages {
-	color: #43b5d9;
 	font-size: 16px;
 	font-family: helvetica;
 	font-weight: bold;
@@ -106,5 +121,9 @@ bars {
 
 .shipping-notice {
 	font-size: 12px;
+}
+
+.text-indent {
+	text-indent: 50px;
 }
 
