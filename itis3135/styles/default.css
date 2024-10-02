@@ -127,3 +127,35 @@ bars {
 	text-indent: 50px;
 }
 
+.w3-center {
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.a-footer {
+	font-size: 12px;
+}
+
+/* TABLE HTML ONLY */
+
+figure table tr {
+	color: black;
+	text-align: center;
+}
+figure table tr:nth-child(even) {
+	background-color: #dddee2;
+}
+figure table tr:nth-child(odd) {
+	background-color: #bdbfc8;
+}
+figure table tr:nth-child(1) {
+	background-color: #616372;
+	color: white;
+	font-weight: bold;
+}
+figure td {
+	padding: 5px;
+}
+

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Abelardo's Forms Page</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+		<style>
+			body {
+				display: block;
+				max-width: 70%;
+				margin-left: 20%;
+				margin-right: 20%;
+				margin-bottom: 1em;
+			}
+			
+			legend {
+				margin-top: 2em;
+				font-size: 18px;
+				font-weight: bold;
+			}
+			
+			
+			input {
+				width: 100%;
+			}
+			
+			input {
+				margin: 5px 0 12px 0;
+				max-width: 500px;
+			}
+			
+			label {
+				
+			}
+			
+			fieldset {
+				border: none;
+				border-bottom: 2px solid black;
+				margin-bottom: 2em;
+			}
+			
+			.button {
+				background-image: linear-gradient(navy, black);
+				color: white;
+				max-width: 300px;
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				height: 36px;
+				font-size: 16px;
+			}
+			
+			.line {
+				display: inline;
+				width: unset;
+			}
+			
+			.not-too-far {
+				margin-top: 5vh;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>Order your new Headphones</h2>
+			<form action="#">
+			
+				<fieldset>
+					<legend>Your Info</legend>
+				
+					<label>Name: <input type="text" placeholder="Your name here" required ></input></label><br>
+					<label>Email: <input type="email" placeholder="Your email here" required ></input></label><br>
+					<label>Number: <input type="text" min="10" max="13" placeholder="Your phone number here (optional)" ></input></label>
+				</fieldset>
+				
+				<fieldset>
+					<legend>Headphone type:</legend>
+					<label class="line"><input class="line" name="headphone-type" type="radio" checked></input> Headphones</label>
+					<label class="line"><input class="line" name="headphone-type" type="radio" ></input> IEM</label>
+				
+					<legend class="not-too-far">Driver type:</legend>
+					<select required>
+						<option value="">Select</option>
+						<option value="1">Dynamic Driver</option>
+						<option value="2">Planar(Headphone Only)</option>
+					</select>
+				</fieldset>
+				
+				<legend> </legend>
+				<label class="line"><input class="line" type="checkbox" required> I understand my product is made to order, and will vary in time to ship</label>
+				<input class="button" type="button" value="Start Over"></input>
+				<input class="button" type="submit" value="Submit"></input>
+			</form>
+		</main>
+		<footer>
+			<div data-include="components/footer.html"></div>
+		</footer>
+		<script src="scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>

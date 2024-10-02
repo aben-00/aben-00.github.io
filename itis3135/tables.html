@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Abelardo's Tables Page</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/default.css">
+		<style>
+		</style>
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>HTML Tables</h2>
+			
+			<h3>My Tabular Data</h3>
+			<ol>
+				<li>Eric Cartman ecartman@abdev.com 13</li>
+				<li>Kyle Broflovski kbroflovski@abdev.com 6</li>
+				<li>Stanley Marsh smarsh@abdev.com 15</li>
+				<li>Kenneth McCormick kmccormick@abdev.com 14</li>
+				<li>Leopold Stotch lstotch@abdev.com 7</li>
+				<li>Clyde Donovan cdonovan@abdev.com 29</li>
+				<li>Craig Tucker ctucker@abdev.com 16</li>
+				<li>Jimmy Valmer jvalmer@abdev.com 22</li>
+			</ol>
+			
+			<h3>Employee Data in Simple Table</h3>
+			
+			<table>
+				<tr>
+					<td>Name</td>
+					<td>Email</td>
+					<td>Years of Service</td>
+				</tr>
+				<tr>
+					<td>Eric Cartman</td>
+					<td>ecartman@abdev.com</td>
+					<td>13</td>
+				</tr>
+				<tr>
+					<td>Kyle Broflovski</td>
+					<td>kbroflovski@abdev.com</td>
+					<td>15</td>
+				</tr>
+				<tr>
+					<td>Stanley Marsh</td>
+					<td>smarsh@abdev.com</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<td>Kenneth McCormick</td>
+					<td>kmccormick@abdev.com</td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>Leopold Stotch</td>
+					<td>lstotch@abdev.com</td>
+					<td>29</td>
+				</tr>
+				<tr>
+					<td>Clyde Donovan</td>
+					<td>cdonovan@abdev.com</td>
+					<td>16</td>
+				</tr>
+				<tr>
+					<td>Craig Tucker</td>
+					<td>ctucker@abdev.com</td>
+					<td>22</td>
+				</tr>
+				<tr>
+					<td>Jimmy Valmer</td>
+					<td>jvalmer@abdev.com</td>
+					<td>6</td>
+				</tr>
+			</table>
+			
+			<h3>Employee Data in Complex Table</h3>
+			
+			<figure>
+			<table>
+				<tr>
+					<td>Department</td>
+					<td>Name</td>
+					<td>Email</td>
+					<td>Years of Service</td>
+					<td>Salary</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Marketing</td>
+					<td>Eric Cartman</td>
+					<td>ecartman@abdev.com</td>
+					<td>13</td>
+					<td>$72,000</td>
+				</tr>
+				<tr>
+					<td>Jimmy Valmer</td>
+					<td>jvalmer@abdev.com</td>
+					<td>6</td>
+					<td>$61,000</td>
+				</tr>
+				<tr>
+					<td rowspan="2">R&D</td>
+					<td>Kyle Broflovski</td>
+					<td>kbroflovski@abdev.com</td>
+					<td>15</td>
+					<td>$81,000</td>
+				</tr>
+				<tr>
+					<td>Stanley Marsh</td>
+					<td>smarsh@abdev.com</td>
+					<td>14</td>
+					<td>$79,000</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Development</td>
+					<td>Kenneth McCormick</td>
+					<td>kmccormick@abdev.com</td>
+					<td>7</td>
+					<td>$65,000</td>
+				</tr>
+				<tr>
+					<td>Leopold Stotch</td>
+					<td>lstotch@abdev.com</td>
+					<td>29</td>
+					<td>$104,000</td>
+				</tr>
+				<tr>
+					<td rowspan="2">Sales</td>
+					<td>Clyde Donovan</td>
+					<td>cdonovan@abdev.com</td>
+					<td>16</td>
+					<td>$86,000</td>
+				</tr>
+				<tr>
+					<td>Craig Tucker</td>
+					<td>ctucker@abdev.com</td>
+					<td>22</td>
+					<td>$97,000</td>
+				</tr>
+				<tr>
+					<td colspan="3">Total Years of Service/Total Salaries</td>
+					<td>122</td>
+					<td>$645,000</td>
+				</tr>
+			</table>
+			<figcaption>Employee Data</figcaption>
+			</figure>
+		</main>
+		<footer>
+			<div data-include="components/footer.html"></div>
+		</footer>
+		<script src="scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>
