@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>First Scripts</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="styles/default.css">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header>
+			<div data-include="components/header.html"></div>
+		</header>
+		<main>
+			<h2>First Scripts</h2>
+			<section class="script-section" id="date-and-time">
+				<div id="date"></div>
+				<div id="time"></div>
+			</section>
+			<section class="script-section" id="prompts">
+				<form>
+					<label id="name">Enter name: <input id="name-input" required ></label>
+					<label id="feeling">How are you feeling today?<input id="feeling-input" required ></label>
+					<button class="script-btn" id="prompts-btn" type="button">Submit</button>
+				</form>
+				<div id="submitted-prompt"></div>
+			</section>
+			<section class="script-section" id="fav-num">
+				<form>
+					<label id="enter-num">Enter your favorite number: <input id="fav-num-input"></label>
+					<button class="script-btn" id="fav-num-btn" type="button">Submit</button>
+				</form>
+				<div id="user-fav-shape"></div>
+
+			</section>
+			<section class="script-section" id="lot-of-buttons">
+				<h3>Random Beaver Activities</h3>
+				<button class="script-btn" id="build-a-dam" type="button">Build a Dam</button>
+				<button class="script-btn" id="gather-wood" type="button">Gather Wood</button>
+				<button class="script-btn" id="tell-a-joke" type="button">Joke about Beavers</button>
+				<button class="script-btn" id="beaver-facts" type="button">Random Beaver Fact</button>
+				<button class="script-btn" id="reset-button" type="button">Reset Log</button>
+ 
+				<div id="beaver-activities-output"></div>
+			</section>
+			<section class="script-section">
+				<h3>COD Zombies random challenge picker</h3>
+				<button class="script-btn" id="zombie-challenge-btn" type="button">Choose a Random Challenge</button>
+
+				<div id="challenge-output"></div>
+			</section>
+		</main>
+		<footer>
+			<div data-include="components/footer.html"></div>
+		</footer>
+		<script src="scripts/HTMLInclude.min.js"></script>
+		<script src="scripts/firstscripts.js"></script>
+	</body>
+</html>
