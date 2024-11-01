@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Hobby Project</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<script src="https://lint.page/kit/4d0fe3.js" crossorigin="anonymous"></script>
+		<style>
+			/*https://coolors.co/23395b-cacfc9-f0a7a0-41ead4-ba2644*/
+			
+			body {
+				background-color: #23395B;
+				color: #CACFC9;
+				font-family: monospace;
+				padding: 0 5vh;
+			}
+
+			a {
+				color: #41EAD4;
+				text-decoration: none;
+			}
+			a:visited {
+				color: #BA2644;
+			}
+			a:active {
+				color: #F0A7A0;
+			}
+
+			figure {
+				text-align: center;
+			}
+
+			figure p {
+				text-indent: 0;
+				margin-top: 1em;
+			}
+
+			figcaption {
+				margin-top: 1em;
+			}
+
+			footer {
+				margin-top: 4em;
+			}
+
+			h1 {
+				font-size: 50px;
+			}
+
+			h2 {
+				font-size: 28px;
+			}
+
+			h3 {
+				font-size: 20px;
+				margin-bottom: 2vh;
+
+			}
+
+			img {
+			 display: block;
+			 align-items: center;
+			 margin-left: auto;
+			 margin-right: auto;
+			}
+
+			li {
+				margin: 1em 0;
+			}
+
+			nav {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+
+			nav li {
+				background-color: #F0A7A0;
+				color: #23395B;
+				font-weight: bold;
+				border-radius: 20px;
+				width: 8em;
+				height: 5em;
+				text-align: center;
+				justify-content: center;
+				display: flex;
+				align-items: center;
+				list-style-type: none;
+			}
+
+			nav ul {
+				display: inline-flex;
+				gap: 1vh;
+			}
+
+			ol li {
+				line-height: 25px;
+			}
+
+			p {
+				line-height: 26px;
+				font-size: 16px;
+				text-indent: 3em;
+			}
+
+			section {
+				border: 2px solid #F0A7A0;
+				margin: 4em 0;
+				padding: 2em 4em;
+
+			}
+
+			table {
+				margin: 0 auto;
+			}
+			table tr{
+				color: #CACFC9;
+				text-align: center;
+				border-radius: 10px;
+			}
+			table tr:nth-child(even) {
+				background-color: #0E8171;
+			}
+			table tr:nth-child(odd) {
+				background-color: #4570B0;
+			}
+			table tr:nth-child(1) {
+				background-color: #BA2644;
+				color: white;
+				font-weight: bold;
+			}
+			td {
+				padding: 5px;
+			}
+
+			.center-wrapper {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				height: 4vh;
+			}
+
+			.clickable {
+				cursor: pointer;
+			}
+
+			.designed-by {
+				text-align: left;
+				margin-bottom: 1em;
+			}
+			
+			.hidden {
+				display: none;
+
+			}
+
+			.no-indent {
+				text-indent: 0;
+			}
+
+			.ol-spacing {
+				line-height: 25px;
+			}
+
+			.section-images {
+				border-radius: 20px;
+				width: 384px;
+				height: 384px;
+			}
+
+			.validation {
+				flex-direction: row;
+				gap: 20px;
+			}
+
+			@media (max-width: 750px) {
+				body {
+					font-size: 14px;
+					padding: 10px;
+				}
+				
+				nav ul {
+					display: flex;
+					flex-direction: column;
+				}
+
+				li {
+					margin: 0;
+				}
+
+				.section-images {
+					width: 256px;
+					height: 256px;
+				}
+			}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1 class="center-wrapper">Music as a Hobby</h1>
+			<nav>
+				<ul>
+					<li id="nav-home" class="clickable">Home</li>
+					<li id="nav-who" class="clickable">Who do I listen to?</li>
+					<li id="nav-when" class="clickable">Charts of best selling albums</li>
+					<li id="nav-where" class="clickable">Where can we start?</li>
+					<li id="nav-why" class="clickable">Why music?</li>
+					<li id="nav-how" class="clickable">How do I get started?</li>
+					<li id="nav-ai" class="clickable">AI Prompts Used</li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<section id="section-who" class="hidden"> <!--Who-->
+				<h2>Who do I listen to?</h2>
+				<div>
+					<figure>
+						<img class="section-images" src="images/shelf_of_records.png" alt="shelf of record vinyls and turntable">
+						<figcaption>Shelf of Records</figcaption>
+						<p><em>AI Prompt Used: "wooden shelf with record vinyls, moody lighting"</em></p>
+					</figure>
+					<p>
+						Everyone gravitates toward some kind of music, and we categorize it by genres.
+						The main genre I enjoy the most is rock music, this includes subgenres glam, psychedelic, classic, hard, and alternative.
+						Other genres I enjoy as well are indie, metal, ambient, pop, house, and EDM.
+						Genres are all great in their own way, and the clear difference in tone they have from one to the next is always something very exciting to explore.
+					</p>
+					<p>
+						We cannot talk music without talking artists as well. Artists either stick to a single genre, or they branch out and intertwine
+						their main genre with another one to experiment with their sound. Some artists I have found to really enjoy are 
+						Kid Cudi, Tyler, the Creator, Starship, Queen, Avenged Sevenfold, and so many more. 
+						The list gets kind of long but that is a good start. Below I have a list of more artists I enjoy, in no particular order.
+					</p>
+
+					<h3>List of Artists I enjoy</h3>
+					<ul>
+						<li>Caleb Etheridge</li>
+						<li>Breaking Benjamin</li>
+						<li>Trivium</li>
+						<li>Adrian Berenguer</li>
+						<li>Kevin Sherwood</li>
+						<li>My Chemical Romance</li>
+						<li>Three Days Grace</li>
+						<li>Wovenwar</li>
+						<li>Starset</li>
+						<li>Bullet For My Valentine</li>
+						<li>Post Malone</li>
+						<li>Louis Armstrong</li>
+						<li>Pink Floyd</li>
+						<li>Led Zeppelin</li>
+						<li>Poison</li>
+						<li>P!nk</li>
+						<li>LSD</li>
+						<li>Flo Rida</li>
+						<li>So many more..</li>
+					</ul>
+				</div>
+			</section>
+
+			<section id="section-home" class=""> <!--What-->
+				<h2>Home</h2>
+				<div>
+					<h3>What is a hobby of music?</h3>
+					<p>
+						The hobby of music is much more than finding something to give background noise or "finding a vibe".
+						Of course, finding a vibe, and depending on what you are looking for in that moment is a good start. To me, it is about what the artist is trying
+						to convey to the listener, through the instrumentation, the hook, the counter-melody, and timing. This is just the start of it, there is so much to find when you endulge yourself in music.
+						It can start simple, like listening to music on a website like youtube, or using a service like Spotify or Apple Music. Then you want better headphones; or maybe you like earbuds so you get some nice IEMs.
+						These headphones require moe power, so you get an amp, then a DAC, new headphones, a physical equalizer, and next thing you know you have a whole setup!
+					</p>
+					<figure>
+						<img class="section-images" src="images/record_player.png" alt="turntable playing record">
+						<figcaption >Turntable playing a record</figcaption>
+						<p><em>AI Prompt Used: Record in a turntable. Warm lighting</em></p>
+					</figure>
+					<p>Getting started in this hobby is really easy, we listen to music all the time! Whether it is while shopping, driving to and from work/school,
+						at a party, a get together and whatever else you can think of. Us as humans love music, and we all have different taste in music. Go and listen to something you would'nt normally listen to, and you might 
+						just find your next favorite song, artist, or genre! It only goes up from there, and it stays fresh and interesting the whole way through.
+					</p>
+				</div>
+			</section>
+
+			<section id="section-when" class="hidden"> <!--When-->
+				<h2>Charts of best selling albums</h2>
+				<div>
+					<h3 class="center-wrapper">By Decade</h3>
+					<table>
+						<tr>
+							<td>Decade</td>
+							<td>Artist</td>
+							<td>Album</td>
+							<td>Genre</td>
+						</tr>
+						<tr>
+							<td>1940s</td>
+							<td>Various Artists</td>
+							<td>OKLAHOMA!</td>
+							<td>Sountrack</td>
+						</tr>
+						<tr>
+							<td>1950s</td>
+							<td>Elvis Presley</td>
+							<td>Elvis' Christmas Album</td>
+							<td>Christmas Pop, Rock n Roll</td>
+						</tr>
+						<tr>
+							<td>1960s</td>
+							<td>Sgt. Pepper's Lonely Hearts Club</td>
+							<td>The Beatles</td>
+							<td>Rock, Pop, Vaudeville</td>
+						</tr>
+						<tr>
+							<td>1970s</td>
+							<td>Pink Floyd</td>
+							<td>Dark Side of the Moon</td>
+							<td>Progressive Rock, Psychedelic Rock</td>
+						</tr>
+						<tr>
+							<td>1980s</td>
+							<td>Michael Jackson</td>
+							<td>Thriller</td>
+							<td>Pop, Funk, Rock, R&B</td>
+						</tr>
+						<tr>
+							<td>1990s</td>
+							<td>Whitney Houston</td>
+							<td>The Bodyguard</td>
+							<td>Sountrack</td>
+						</tr>
+						<tr>
+							<td>2000s</td>
+							<td>Eminem</td>
+							<td>The Marshall Mathers</td>
+							<td>Hardcore HipHop</td>
+						</tr>
+						<tr>
+							<td>2010s</td>
+							<td>Adele</td>
+							<td>21</td>
+							<td>Pop, Soul</td>
+						</tr>
+						<tr>
+							<td>2020s(Current)</td>
+							<td>Morgan Wallen</td>
+							<td>DANGEROUS: The Double Album</td>
+							<td>Country</td>
+						</tr>
+					</table>
+
+					<h3 class="center-wrapper">Best Selling albums of all time</h3>
+					<table>
+						<tr>
+							<td>Number</td>
+							<td>Artist</td>
+							<td>Album</td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td>Michael Jackson</td>
+							<td>Thriller</td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td>Back in Black</td>
+							<td>AC/DC</td>
+						</tr>
+						<tr>
+							<td>3</td>
+							<td>Pink Floyd</td>
+							<td>Dark Side of the Moon</td>
+						</tr>
+						<tr>
+							<td>4</td>
+							<td>Whitney Houston</td>
+							<td>The Bodyguard</td>
+						</tr>
+						<tr>
+							<td>5</td>
+							<td>Michael Jackson</td>
+							<td>BAD</td>
+						</tr>
+						<tr>
+							<td>6</td>
+							<td>Bat out of Hell</td>
+							<td>Meat Loaf</td>
+						</tr>
+						<tr>
+							<td>7</td>
+							<td>Eagles</td>
+							<td>Hotel California</td>
+						</tr>
+						<tr>
+							<td>8</td>
+							<td>Eagles</td>
+							<td>Their Greatest Hits 1971-1975</td>
+						</tr>
+						<tr>
+							<td>9</td>
+							<td>Backstreet Boys</td>
+							<td>Millennium</td>
+						</tr>
+						<tr>
+							<td>10</td>
+							<td>Shania Twain</td>
+							<td>Come on Over</td>
+						</tr>
+						<tr>
+							<td>11</td>
+							<td>Bee Gees</td>
+							<td>Saturday Night Fever</td>
+						</tr>
+						<tr>
+							<td>12</td>
+							<td>Fleetwood Mac</td>
+							<td>Rumors</td>
+						</tr>
+						<tr>
+							<td>13</td>
+							<td>Led Zeppelin</td>
+							<td>Led Zeppelin IV</td>
+						</tr>
+						<tr>
+							<td>14</td>
+							<td>Alanis Morissette</td>
+							<td>Jagged Little Pill</td>
+						</tr>
+						<tr>
+							<td>15</td>
+							<td>Metallica</td>
+							<td>Metallica</td>
+						</tr>
+						<tr>
+							<td>16</td>
+							<td>Pink Floyd</td>
+							<td>The Wall</td>
+						</tr>
+						<tr>
+							<td>17</td>
+							<td>Eminem</td>
+							<td>The Marshall Mathers</td>
+						</tr>
+						<tr>
+							<td>18</td>
+							<td>The Beatles</td>
+							<td>1</td>
+						</tr>
+						<tr>
+							<td>19</td>
+							<td>Celine Dion</td>
+							<td>Falling Into You</td>
+						</tr>
+						<tr>
+							<td>20</td>
+							<td>ABBA</td>
+							<td>GOLD - Greatest Hits</td>
+						</tr>
+					</table>
+
+					<p>The chart of best selling albums by decade shows a lot of how the sound most people found to enjoy has changed, with the introduction of new genres and instruments.
+						The best selling albums of all time have a lot of rock, and this makes sense due to 2 things I can think of. 1 reason is because of the lack of tracking album sales accurately before 1990,
+						and the second is the rise of rock music exploded in the 60s-80s. Looking at some of the best albums of a decade is a great place to start looking for more music you may enjoy.
+					</p>
+				</div>
+			</section>
+
+			<section id="section-where" class="hidden"> <!--Where-->
+				<h2>Where can we start?</h2>
+				
+				<h3 class="center-wrapper">Streaming Services</h3>
+				<p class="center-wrapper"><em>(In order of overall quality, my opinion)</em></p>
+				<ol>
+					<li>Qobuz</li>
+					<li>Spotify | Apple Music</li>
+					<li>Youtube Music</li>
+					<li>Bandcamp</li>
+					<li>Amazon Music Unlimited</li>
+					<li>Soundcloud</li>
+					<li>Tidal</li>
+				</ol>
+				<p>Streaming services is the most popular and convenient method to get access to millions of songs, from so many artists, and genres all over the world.
+					This is also seen as a very cost effective method for people who want to listen to music casually, or is not interested in juggling outdated physical media, and obscene storage space requirements for downloading music.
+					Looking into what kind of streaming service being the best for you is a good thing to look, since unlike television, most artists are on all of these platforms.
+					This list here is so people can look more into how many streaming services there are. There are so many more, but these are ones that I have personally used, and consider good. 
+				</p>
+				<ol class="ol-spacing">
+					<li>Qobuz is a very high quality streaming service. The quality is not cheap however, this service is really for people who want the absolute best listening experience, and have an interest in download high quality music; yours to keep.</li>
+					<li>Spotify and Apple Music are the 2 juggernauts of the music streaming world, and are absolutely fantastic. If you have one of these, you absolutely do not need the other. Not much else need to be said.</li>
+					<li>Same as Spotify and Apple Music, audio quality seems to be a bit of an issue, especially with more sensitive headphones.</li>
+				</ol>
+			</section>
+
+			<section id="section-why" class="hidden"> <!--Why-->
+				<h2>Why Music?</h2>
+
+				<h3>Why do we enjoy music?</h3>
+				<p>
+					Music is something that we enjoy, because of the emotional connection we have to it. Whatever artist, album, genre, or culture the songs come from, we all react and feel a certain way when listening to music.
+					We are surrounded by music all the tiem, and it makes sense because of its application everywhere in our lives. Whether it be when shopping, in the car, out on a walk/jog, at a party, on the phone, and of course the elevator. 
+					A lot of music we listen to really is just used as background noise, like the shopping and driving in a car example. It keeps us from feeling the environment we are in is too quiet, since being in a quiet place for too long will make us feel uneasy.
+					Depending on the kind of music you listen to, can also affect how productive you are as well. I am sure a lot of us has a playlist dedicated purely for homework, since that playlist allows us to focus more on the work more than the music and our surroundings.
+				</p>
+
+				<figure>
+					<img class="section-images" src="images/homework_with_music.png" alt="Student doing homework while listening to music">
+					<figcaption>Student doing homework</figcaption>
+					<p>AI Prompt Used: person working on homework with headphones on, warm lighting</p>
+				</figure>
+				<h3>What about some others?</h3>
+				<p>There are people that simply cannot find much enjoyment from music because of some emotional complexity that does not allow them to empathize with music like the vast majority of people.
+					This condition is called <a href="https://pubmed.ncbi.nlm.nih.gov/29779745/" target="new">Musical Anhedonia</a>, where they cannot find any satisfaction or benefit from listening to music. This affects some more than others, and is a reason why some feel suppressed emotions compared to other, if any at all.
+				</p>
+			</section>
+
+			<section id="section-how" class="hidden"> <!--How-->
+				<h2>How do I get started?</h2>
+				
+				<h3>How do you want to listen to music?</h3>
+				<p>As said on the homepage, albeit quite short, what kind of audio equiptment are we interested in? There is a lot to choose from, so let's start with a few ideas.</p>
+				<ol>
+					<li><strong>Headphones</strong>: This can range from simple dollar store cans, to reference studio headphones. This is the most broad category, and is always evolving.</li>
+					<li><strong>In Ear Monitors (IEM)</strong>: Just like headphones, they can range from ones at the dollar store, to crazy expensive reference monitors used for their much increased sensitivity and accuracy.</li>
+					<li><strong>Bluetooth Speakers</strong>: The most convenient when wanting to play music out loud. Let's be honest, phone speakers kind of suck, they either sound bad, aren't loud, or both. This is an easy and fun way to listen to music with a group.</li>
+					<li><strong>Hi-Fi Stereo</strong>: This is getting high end now. Hi-Fi is a step above lossless audio quality, allowing you to hear the most intricate details you would normally not hear.(Most streaming services cannot do lossless, let alone Hi-Fi)</li>
+					<li><strong>Dedicated Room</strong>: This is where you might be insane. Having an entire room in your house dedicated just to listening to music is a step above. This can be done in tandem with the Hi-Fi stereo setup, and you go even further by using foam panels to reduce echo, and tune the audio to make the room sound the best it can be.</li>
+				</ol>
+				<figure>
+					<img class="section-images" src="images/music_room.png" alt="dedicated music room">
+					<figcaption></figcaption>
+					<p><em>AI Prompt Used: dedicated music listening room, warm lighting</em></p>
+				</figure>
+				<figure>
+					<img class="section-images" src="images/personal_headphone_stash.jpg" alt="collection of headphones">
+					<figcaption>A bit of my headphone collection</figcaption>
+				</figure>
+				
+			</section>
+
+			<section  id="section-ai" class="hidden"> <!--AI Prompts Used-->
+				<h2>AI Prompts Used</h2>
+				<div>
+					<ul>
+						<li>
+							I want do a hobby site, but I am having trouble coming up with ideas for a who, what, when, where, why, how outline for music.
+						</li>
+						<li>
+							Can I get a simple list of javascript toggle methods
+						</li>
+						<li>
+							function sectionWhoToggle() {
+								alert("test");
+								
+								document.querySelector("section-who-div").classList.toggle("hidden");
+							};
+			
+			
+							document.getElementById("section-who").addEventListener("click", sectionWhoToggle);
+							
+							why does my toggle not work
+						</li>
+						<li>
+							ChatGPT was not used very much. The main thing I really used it for was giving ideas. I can add those prompts if need be.
+							Here is an example: "what kinds of music listening setups are there. from simple like headphones to a room made like a sound chamber"
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<div class="center-wrapper designed-by">
+				<p>Designed by <a href="abdevcorp.com/index.html"> AB Dev Corp</a>. 2024, <em>Certified in <a href="https://www.freecodecamp.org/certification/BenitezA/responsive-web-design">Responsive Web Design</a></em>.</p>
+			</div>
+			<div class="center-wrapper validation">
+				<a id="validationlinkhtml" class="center-wrapper validation" href="https://validator.w3.org/check?uri=referer"><img src="images/button_validation_html5.png" width="88" height="31" alt="Validate webpage HTML." ></a>
+				<a id="validation-link-css" class="center-wrapper validation" href="https://jigsaw.w3.org/css-validator/check/referer"><img src="images/button_validation_css.png" width="88" height="31" alt="Validate webpage CSS." ></a>
+				<a id="validation-link-accessibility" class="center-wrapper validation" href="https://wave.webaim.org/report#/https://webpages.charlotte.edu/abenite3/itis3135/hobby"><img src="images/button_validation_wcag-1.png" width="88" height="31" alt="Validate webpage CSS." ></a>
+			</div>
+			<script>
+				// set section variables
+				const sectionWho = document.getElementById("section-who");
+				const sectionHome = document.getElementById("section-home");
+				const sectionWhen = document.getElementById("section-when");
+				const sectionWhere = document.getElementById("section-where");
+				const sectionWhy = document.getElementById("section-why");
+				const sectionHow = document.getElementById("section-how");
+				const sectionAi = document.getElementById("section-ai");
+
+				// set nav variables
+				const navWho = document.getElementById("nav-who");
+				const navHome = document.getElementById("nav-home");
+				const navWhen = document.getElementById("nav-when");
+				const navWhere = document.getElementById("nav-where");
+				const navWhy = document.getElementById("nav-why");
+				const navHow = document.getElementById("nav-how");
+				const navAi = document.getElementById("nav-ai");
+
+				function hideAll() {
+					sectionWho.classList.add("hidden");
+					navWho.classList.add("clickable");
+
+					sectionHome.classList.add("hidden");
+					navHome.classList.add("clickable");
+
+					sectionWhen.classList.add("hidden");
+					navWhen.classList.add("clickable");
+
+					sectionWhere.classList.add("hidden");
+					navWhere.classList.add("clickable");
+
+					sectionWhy.classList.add("hidden");
+					navWhy.classList.add("clickable");
+
+					sectionHow.classList.add("hidden");
+					navHow.classList.add("clickable");
+
+					sectionAi.classList.add("hidden");
+					navAi.classList.add("clickable");
+				}
+
+				function sectionWhoToggle() {
+					if (sectionWho.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionWho.classList.remove("hidden");
+					navWho.classList.remove("clickable");
+				}
+
+				function sectionHomeToggle() {
+					if (sectionHome.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionHome.classList.remove("hidden");
+					navHome.classList.remove("clickable");
+				}
+
+				function sectionWhenToggle() {
+					if (sectionWhen.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionWhen.classList.remove("hidden");
+					navWhen.classList.remove("clickable");
+				}
+
+				function sectionWhereToggle() {
+					if (sectionWhere.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionWhere.classList.remove("hidden");
+					navWhere.classList.remove("clickable");
+				}
+
+				function sectionHowToggle() {
+					if (sectionHow.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionHow.classList.remove("hidden");
+					navHow.classList.remove("clickable");
+				}
+
+				function sectionWhyToggle() {
+					if (sectionWhy.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionWhy.classList.remove("hidden");
+					navWhy.classList.remove("clickable");
+				}
+
+				function sectionAiToggle() {
+					if (sectionAi.classList.contains("hidden")) {
+						hideAll();
+					}
+					sectionAi.classList.remove("hidden");
+					navAi.classList.remove("clickable");
+				}
+
+				
+				navWho.addEventListener("click", sectionWhoToggle);
+				navHome.addEventListener("click", sectionHomeToggle);
+				navWhen.addEventListener("click", sectionWhenToggle);
+				navWhere.addEventListener("click", sectionWhereToggle);
+				navWhy.addEventListener("click", sectionWhyToggle);
+				navHow.addEventListener("click", sectionHowToggle);
+				navAi.addEventListener("click", sectionAiToggle);
+
+				document.getElementById("validation-link-html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+				document.getElementById("validation-link-css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+				document.getElementById("validation-link-accessibility").setAttribute("href", "https://wave.webaim.org/report#/https://webpages.charlotte.edu/abenite3/itis3135/hobby" + location.href);
+			</script>
+		</footer>
+	</body>
+</html>
