@@ -27,7 +27,6 @@ footer {
 a {
 	color: #43b5d9;
 	text-decoration: none;
-	
 }
 
 a:visited {
@@ -81,6 +80,13 @@ bars {
 	border-radius: 20px;
 }
 
+.center-p5 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
 .designed-by {
 	margin-right: auto;
 	margin-left: auto;
@@ -121,13 +127,6 @@ bars {
 
 .text-indent {
 	text-indent: 50px;
-}
-
-.w3-center {
-	align-items: center;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .a-footer {

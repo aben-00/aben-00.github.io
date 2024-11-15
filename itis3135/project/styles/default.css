@@ -1,0 +1,158 @@
+/*https://coolors.co/704214-423124-ffffff-ff4a1c-2892d7*/
+body {
+    background-color: #704214;
+    color: #FFFFFF;
+    font-family: monospace;
+}
+/* Header */
+
+header {
+    background-color: #704214;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /* Positions <h1> and <nav> on the same line */
+    position: fixed;
+    width: 100%;
+    height: 8em; /* Adjusted height for a more standard header size */
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Styling for the <h1> */
+h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Flex layout for <nav> list items */
+nav ul {
+    list-style: none; /* Removes default bullet points */
+    display: flex;
+    gap: 4em;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for <nav> list items */
+nav li {
+    display: flex;
+    background-color: #423124;
+    border-radius: 15px;
+    width: 12em;
+    height: 4em;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+
+/* Main */
+
+main {
+    align-items: center;
+    margin: 0 15%;
+}
+
+header a, main a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:active, main a:active {
+    color: white;
+}
+
+header a:visited, main a:visited {
+    color: white;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 34px;
+    margin: 1.5em auto;
+}
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+/* Footer*/
+
+footer {
+    text-align: center;
+}
+
+/* Classes */
+
+.featured-img {
+    width: 420px;
+    height: 420px;
+    object-fit: cover;
+    border: 3px solid #423124;
+    border-radius: 15px;
+    gap: 2em;
+    box-sizing: border-box;
+}
+
+.homepage-finds {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 24em;
+    height: 24em;
+    border: 2px solid #423124;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.homepage-finds-img {
+    width: 24em;
+    height: 20em;
+    border-radius: 12px 12px 5px 5px;
+    object-fit: cover;
+}
+
+.homepage-banner {
+    width: 100%;
+    height: 14em;
+    margin: 8em auto 0;
+    object-fit: cover;
+    border: 3px solid #423124;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+/* Footer */
+
+footer a {
+    text-decoration: none;
+    color: #2892D7;
+}
+
+footer a:active {
+    color: white;
+}
+
+footer a:visited {
+    color: #FF4A1C;
+}
+
+/* SMALLER WIDTH DEVICES
+
+nav li {
+    display: inline-flex;
+    margin: auto 1vh auto 0;
+    border: 2px solid black;
+    width: 6em;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+}
+
+*/
