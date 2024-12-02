@@ -21,25 +21,35 @@
 				font-weight: bold;
 			}
 			
-			
 			input {
 				width: 100%;
-			}
-			
-			input {
 				margin: 5px 0 12px 0;
 				max-width: 500px;
+				background-color: #152163;
+				color: white;
+				font-size: 16px;
+				border-radius: 5px;
 			}
 			
+			input::placeholder {
+				color: grey;
+			}
 			
 			fieldset {
 				border: none;
 				border-bottom: 2px solid black;
 				margin-bottom: 2em;
 			}
+
+			select {
+				background-color: #152163;
+				color: white;
+				border-radius: 5px;
+				font-size: 16px;
+			}
 			
 			.button {
-				background-image: linear-gradient(navy, black);
+				background-image: linear-gradient(#152163, black);
 				color: white;
 				max-width: 300px;
 				display: block;
@@ -47,6 +57,7 @@
 				margin-right: auto;
 				height: 36px;
 				font-size: 16px;
+				border-radius: 5px;
 			}
 			
 			.line {
@@ -70,15 +81,15 @@
 				<fieldset>
 					<legend>Your Info</legend>
 				
-					<label>Name: <input type="text" placeholder="Your name here" required ></input></label><br>
-					<label>Email: <input type="email" placeholder="Your email here" required ></input></label><br>
-					<label>Number: <input type="text" min="10" max="13" placeholder="Your phone number here (optional)" ></input></label>
+					<label>Name: <input type="text" placeholder="Your name here" required ></label><br>
+					<label>Email: <input type="email" placeholder="Your email here" required ></label><br>
+					<label>Number: <input type="text" min="10" max="13" placeholder="Your phone number here (optional)" ></label>
 				</fieldset>
 				
 				<fieldset>
 					<legend>Headphone type:</legend>
-					<label class="line"><input class="line" name="headphone-type" type="radio" checked></input> Headphones</label>
-					<label class="line"><input class="line" name="headphone-type" type="radio" ></input> IEM</label>
+					<label class="line"><input class="line" name="headphone-type" type="radio" checked> Headphones</label>
+					<label class="line"><input class="line" name="headphone-type" type="radio" > IEM</label>
 				
 					<legend class="not-too-far">Driver type:</legend>
 					<select required>
@@ -90,8 +101,8 @@
 				
 				<legend> </legend>
 				<label class="line"><input class="line" type="checkbox" required> I understand my product is made to order, and will vary in time to ship</label>
-				<input class="button" type="button" value="Start Over"></input>
-				<input class="button" type="submit" value="Submit"></input>
+				<input class="button" type="reset" value="Start Over">
+				<input class="button" type="submit" value="Submit">
 			</form>
 		</main>
 		<footer>
