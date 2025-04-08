@@ -15,8 +15,6 @@ header {
     width: 100%;
     height: 8em; /* Adjusted height for a more standard header size */
     top: 0;
-    left: 0;
-    right: 0;
 }
 
 /* Styling for the <h1> */
@@ -85,6 +83,7 @@ section {
 
 footer {
     text-align: center;
+    padding-top: 20px;
 }
 
 /* Classes */
@@ -112,7 +111,7 @@ footer {
 }
 
 .homepage-finds-img {
-    width: 24em;
+    width: 100%;
     height: 20em;
     border-radius: 12px 12px 5px 5px;
     object-fit: cover;
@@ -120,7 +119,7 @@ footer {
 
 .homepage-banner {
     width: 100%;
-    height: 14em;
+    height: 12em;
     margin: 8em auto 0;
     object-fit: cover;
     border: 3px solid #423124;
@@ -143,16 +142,49 @@ footer a:visited {
     color: #FF4A1C;
 }
 
-/* SMALLER WIDTH DEVICES
+/*@media (max-width: 800px) {
 
-nav li {
-    display: inline-flex;
-    margin: auto 1vh auto 0;
-    border: 2px solid black;
-    width: 6em;
-    height: 3em;
-    align-items: center;
-    justify-content: center;
-}
+    body {
+    }
 
-*/
+    nav li {
+        display: inline-flex;
+        margin: auto 1vh auto 0;
+        border: 2px solid black;
+        width: 6em;
+        height: 3em;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    header {
+        height: 5em;
+    }
+
+    .homepage-finds {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 16em;
+        height: 18em;
+        border: 2px solid #423124;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+    .homepage-finds-img {
+        width: 15.66em;
+        height: 13em;
+        border-radius: 12px 12px 5px 5px;
+        object-fit: cover;
+    }
+    
+    .featured {
+        display: flex;
+    }
+} */
